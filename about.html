@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<!-- 22061087_이나은 -->
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body{
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }      body{
+                  font-family: Arial;
+                  padding: 10px;
+                  background: white;
+                }
+
+                  .header {
+                    padding: 30px;
+                    text-align: center;
+                    background: white;
+                  }
+
+      .topnav{
+        display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 12px;
+      border-bottom: 1px solid black;
+      }
+      .nav_menu {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+        justify-content: center;
+        width: 100%;
+      }
+      .nav_menu li {
+        padding: 8px 50px;
+      }
+      /* .nav_menu > li:first-child {
+        margin-left: 630px;
+      } */
+        nav > ul > li > a {
+          /* max-width: 70%; */
+          /* float: left; */
+
+          display: flex;
+          color: #9E9E9F;
+          text-align: center;
+          /* padding: 30px 0 40px 80px; */
+          text-decoration: none;
+          font-family: Noto Sans KR Thin;
+
+              /* padding: 40px 60px 50px 158px; */
+        }
+
+
+        .topnav a:hover{
+        background-color:white;
+        color:#2C3540;
+        font-family: Noto Sans KR Medium;
+    }
+
+
+    img.fixed {
+            position: fixed;
+            left:100px;
+            right: 300px;
+            top: 50px;
+            margin-top: 30px;
+          }
+
+    .v p{font-style:Noto Sans KR Thin;
+    font-size: 10pt;}
+
+    .footer{font-family:Noto Sans KR Thin;
+    font-size:8pt;
+      padding: 30px;
+      margin: 40px;
+    border-top: solid 1px gray;
+    text-align: left;}
+
+    .t1 p{text-align: left;
+    font-family:Noto Sans KR Thin;
+    font-size: 20px;
+    }
+
+
+
+
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+
+
+
+
+      .leftcolumn {
+
+        width:fit-content;
+        margin:0 auto;
+      }
+
+
+
+
+
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+
+
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+        .topnav {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+        .nav_menu {
+          display: none;
+          flex-direction: column;
+          align-items: center;
+          width: 100%
+        }
+        .nav_menu > li:first-child {
+          margin-left: 0px;
+        }
+      }
+
+#t01{padding-bottom: 30px;
+font-family:Noto Sans KR Thin;}
+
+#t02{font-size: 8pt;
+font-family:Noto Sans KR Thin;}
+
+.t2{border-bottom: dotted 1px gray;
+margin-bottom:40px;}
+
+.t2 p{text-align: left;
+font-family:Noto Sans KR Thin;
+font-size: 12px;
+margin-bottom: 30px;}
+
+#i{margin-top: 38px;}
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="header">
+     <a href='main.html'>  <img src="./img/logo.png"> </a>
+    </div>
+
+
+
+<nav class="topnav">
+
+  <ul class="nav_menu">
+
+      <li><a href="about.html"  style="float: center">About</a></li>
+      <li><a href="movie.html" style="float: center">Movie</a></li>
+      <!-- <li><a href="Planning.html" style="float: center">Planning</a></li> -->
+      <li><a href="design.html" style="float: center">Design</a></li>
+      <li><a href="Web.html"style="float: center">Web</a></li>
+      <li><a href="illustration.html"style="float: center">illustration</a></li>
+  </ul>
+
+</nav>
+
+<div class="row">
+  <div class="leftcolumn">
+
+    <div id ="t01">  <p> <br>About me <br> </p> </div>
+    <div id="t02"><P>2001.07.18
+    <br> </p></div>
+      <div class="v">
+      <img src="./img/나은.jpg" width="400px" height="400px">
+        <div class="t2">
+      <p> <br>
+        최고의 웹 기획자가 되는 것이 저의 꿈입니다!</p>
+      <p>계원 예술 대학교에 진학하여 기획자의 꿈을 향한 첫걸음을 내딛었습니다.<br>
+      앞으로도 현재와 같이 성실하게 배우며 웹 기획자로 한걸을씩 다가갈 것 입니다.  </p> </div>
+    </div>
+
+    <div class="v">
+    <img src="./img/fi.jpg" width="400px" height="400px">
+      <div class="t2">
+    <p> <br>
+      함께라서 더욱 빛나는 우리들</p>
+    <p>계원 예술 대학교에 진학하여 만난 동기들입니다.<br>
+    사는 곳도 나이도 성격도 모두 다르지만 꿈을 향하여 열심히 달려나갔고 있다는 점은 <br>
+  동알헙니다. 기획, 디자인, 프로그래밍 ... 각자 선택한 전공은 모두 다르지만 저희는 <br>
+서로에게 의지하며 함께합니다 </p> </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="footer">
+  <span>
+  <h2>copyright@lee-naeun. All rigths reserved .</h2>
+</span>
+<div id ="i">
+  <a href="https://www.facebook.com/"  style="float: center"><img src="./img/f.jpg" width="40px" height="40px"> </a>
+  <a href="https://www.instagram.com/?hl=ko"  style="float: center"><img src="./img/i.png" width="40px" height="40px"> </a>
+<a href="https://www.kakaocorp.com/service/KakaoTalk?lang=ko"  style="float: center">  <img src="./img/k.png" width="40px" height="40px"> </a>
+</div>
+</div>
+
+  </body>
+</html>
